@@ -1,0 +1,110 @@
+/* primary text color #757575 */
+/* secondary text color  #212121 */
+/* primary background color #2F303A*/
+/* secondary background color #F5F4FA */
+/* white color #ffffff */
+/* accent #2196F3; */
+/* link color rgba(255, 255, 255, 0.6); */
+/* logo color #000000 */
+
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --logo-text-color: #000000;
+  --accent-text-color: #2196f3;
+  --white-color: #ffffff;
+  --primary-background-color: #2f303a;
+  --secondary-background-color: #f5f4fa;
+  --address-link-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+}
+
+/* header styles */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  color: var(--logo-text-color);
+}
+
+.logo > span {
+  color: var(--accent-text-color);
+}
+
+.site-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+
+.contacts-list .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+  color: var(--accent-text-color);
+}
+
+.hero {
+  background-color: var(--primary-background-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--accent-text-color);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.features-list {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.features-list .title {
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
