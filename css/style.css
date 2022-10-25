@@ -155,7 +155,7 @@ body {
 
 /* portfolio */
 
-.portfolio-btn-list .button {
+.portfolio-filter .button {
   color: var(--secondary-text-color);
   background-color: var(--secondary-background-color);
   font-weight: 500;
@@ -164,13 +164,13 @@ body {
   text-align: center;
 }
 
-.portfolio-btn-list .button:hover,
-.portfolio-btn-list .button:focus {
+.portfolio-filter .button:hover,
+.portfolio-filter .button:focus {
   color: var(--white-color);
   background-color: var(--accent-text-color);
 }
 
-.portfolio-item .title {
+.portfolio-items-list .title {
   color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -178,7 +178,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-.portfolio-item .subtitle {
+.portfolio-items-list .subtitle {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.875;
