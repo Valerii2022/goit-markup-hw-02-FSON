@@ -1,3 +1,11 @@
+/* ul { 
+  list-style: none;
+}*/
+
+/*a {
+  text-decoration: none;
+}*/
+
 /* primary text color #757575 */
 /* secondary text color  #212121 */
 /* primary background color #2F303A*/
@@ -32,14 +40,6 @@ body {
   line-height: 1;
   text-align: center;
 }
-
-/* ul { 
-  list-style: none;
-}*/
-
-/*a {
-  text-decoration: none;
-}*/
 
 /* logo */
 
@@ -146,7 +146,7 @@ body {
   text-align: center;
 }
 
-.team-list>p {
+.team-list .subtitle {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1;
