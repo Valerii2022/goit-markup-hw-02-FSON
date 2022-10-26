@@ -43,6 +43,14 @@ body {
   list-style: none;
 }
 
+.hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
 /* logo */
 
 .logo {
@@ -76,7 +84,8 @@ body {
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-nav .current {
   color: var(--accent-text-color);
 }
 
