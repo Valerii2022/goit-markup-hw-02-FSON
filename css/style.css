@@ -24,7 +24,6 @@ body {
 
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
@@ -129,6 +128,10 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+}
+
+.features-list .subtitle {
+  line-height: 1.71;
 }
 
 /* our team */
